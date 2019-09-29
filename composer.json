@@ -1,0 +1,16 @@
+{
+    "name": "ninydev/31vp1",
+    "description": "Education 31",
+    "type": "education",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "BeerWare",
+    "authors": [
+        {
+            "name": "Olexander Nykytin",
+            "email": "keeper@ninydev.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

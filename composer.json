@@ -5,6 +5,11 @@
     "require": {
         "phpmailer/phpmailer": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
     "license": "BeerWare",
     "authors": [
         {

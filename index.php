@@ -1,12 +1,7 @@
 <?php
 require_once ("vendor/autoload.php");
 
+$Router = new App\Router();
+$Controller = $Router->getController();
 
-require_once ("header.tpl.php");
-
-require_once ("header.tpl.php");
-
-echo "Hello World";
-include ("second.php");
-
-include ("footer.tpl.php");
+echo $Controller->view();

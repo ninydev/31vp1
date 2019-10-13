@@ -11,6 +11,7 @@
 			<li><a href="/"> Главная </a> </li>
 			<li><a href="/?controller=array"> Массивы  </a> </li>
 			<li><a href="/?controller=user"> Пользователи </a> </li>
+            <li><a href="/?controller=contacts"> Обратная связь </a> </li>
 		</ul>
 	</nav>
 	</header>
